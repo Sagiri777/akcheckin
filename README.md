@@ -1,6 +1,6 @@
-# 明日方舟自动签到
+# akns自动签到
 
-可用于Github Action的明日方舟自动化实现 
+可用于Github Action的日常的自动化实现 
 
 ## 功能
 
