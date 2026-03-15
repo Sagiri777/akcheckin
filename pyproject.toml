@@ -1,0 +1,33 @@
+[project]
+name = "akcheckin"
+version = "0.2.0"
+description = "Arknights automation script rewritten in Python and managed by uv"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "requests>=2.32.3",
+  "pycryptodome>=3.20.0",
+]
+
+[project.scripts]
+akcheckin = "akcheckin.main:main"
+
+[dependency-groups]
+dev = [
+  "ruff>=0.11.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
