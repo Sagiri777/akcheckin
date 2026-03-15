@@ -1,0 +1,35 @@
+{
+  "<手机号的MD5值>": {
+    "enableRecruit": true,
+    "enableBattle": false,
+    "enableBatchBuilding": true,
+    "assignChars": false,
+    "enableBetterLog": false,
+    "battleStage": "main_01-07",
+    "battleSchedule": {
+      "main_01-07": {
+        "type": "default"
+      }
+    },
+    "battleLog": {
+      "main_01-07": {
+        "isCheat": "",
+        "completeTime": 120,
+        "stats": {
+          "killedEnemiesCnt": 0,
+          "unnatrualRecoveredCost": 0,
+          "charStats": [],
+          "enemyStats": [],
+          "skillTrigStats": [],
+          "charAdvancedStats": {},
+          "enemyAdvancedStats": {},
+          "runeAdvancedStats": [],
+          "rlBuffAdvancedStats": [],
+          "extraBattleInfoStats": {},
+          "extraBattleInfoSubStats": [],
+          "charList": {}
+        }
+      }
+    }
+  }
+}
