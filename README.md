@@ -1,4 +1,4 @@
-# akcheckin（Python + uv）
+# akcheckinPy
 
 明日方舟自动签到/日常脚本的 Python 重构版本，使用 `uv` 管理依赖与运行。
 
